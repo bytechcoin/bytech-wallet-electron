@@ -23,7 +23,7 @@ config.walletServiceBinaryVersion = "v0.10.0";
 config.walletServiceRpcPort = 8070;
 
 // block explorer url, the [[TX_HASH] will be substituted w/ actual transaction hash
-config.blockExplorerUrl = 'https://explorer.bytechcoin.com/?hash=[[TX_HASH]]#blockchain_transaction';
+config.blockExplorerUrl = 'http://explorer.bytechcoin.com/?hash=[[TX_HASH]]#blockchain_transaction';
 
 // default remote node to connect to, set this to a known reliable node for 'just works' user experience
 config.remoteNodeDefaultHost = '178.32.178.27';
