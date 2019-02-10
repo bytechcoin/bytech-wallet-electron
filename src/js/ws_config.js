@@ -50,9 +50,9 @@ config.addressLength = 99;
 config.integratedAddressLength = 187;
 
 // minimum fee for sending transaction
-config.minimumFee = 0.1;
+config.minimumFee = 1000;
 // minimum amount for sending transaction
-config.mininumSend = 0.1;
+config.mininumSend = 10000;
 // default mixin/anonimity for transaction
 config.defaultMixin = 3;
 // to convert from atomic unit
