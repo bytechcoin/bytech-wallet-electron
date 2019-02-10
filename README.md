@@ -1,7 +1,7 @@
 ![WalletShell](docs/walletshell.png)  
 WalletShell is a GUI wallet for TurtleCoin.
 
-![WalletShell Screens](https://i.imgur.com/41Ujq0S.gif "WalletShell Screens")
+![WalletShell Screens](docs/wallettech_welcome.png "WalletTech Screens")
 
 ### Features:
 This wallet contains the basic functions required to manage your TurtleCoin assets:
