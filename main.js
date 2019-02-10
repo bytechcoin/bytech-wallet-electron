@@ -25,14 +25,14 @@ const SERVICE_OSDIR = (platform === 'win32' ? 'win' : (platform === 'darwin' ? '
 const DEFAULT_SERVICE_BIN = path.join(process.resourcesPath,'bin', SERVICE_OSDIR, SERVICE_FILENAME);
 const DEFAULT_SETTINGS = {
     service_bin: DEFAULT_SERVICE_BIN,
-    service_host: '178.32.178.27',
+    service_host: '127.0.0.1',
     service_port: config.walletServiceRpcPort,
     service_password: crypto.randomBytes(32).toString('hex'),
     daemon_host: config.remoteNodeDefaultHost,
     daemon_port: config.daemonDefaultRpcPort,
     pubnodes_date: null,
     pubnodes_data: config.remoteNodeListFallback,
-    pubnodes_custom: ['178.32.178.27:11127'],
+    pubnodes_custom: ['127.0.0.1:11127'],
     tray_minimize: false,
     tray_close: false,
     darkmode: true
