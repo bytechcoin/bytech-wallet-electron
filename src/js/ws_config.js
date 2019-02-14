@@ -29,7 +29,7 @@ config.blockExplorerUrl = 'http://explorer.bytechcoin.com/?hash=[[TX_HASH]]#bloc
 config.remoteNodeDefaultHost = '178.32.178.27';
 
 // remote node list update url, set to null if you don't have one
-config.remoteNodeListUpdateUrl = '';
+config.remoteNodeListUpdateUrl = 'https://raw.githubusercontent.com/bytechcoin/bytechcoin-nodes-json/master/bytechcoin-nodes.json';
 
 // fallback remote node list, in case fetching update failed, fill this with known to works remote nodes
 config.remoteNodeListFallback = [
