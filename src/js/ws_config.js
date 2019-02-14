@@ -34,7 +34,7 @@ config.remoteNodeListUpdateUrl = 'https://raw.githubusercontent.com/bytechcoin/b
 // fallback remote node list, in case fetching update failed, fill this with known to works remote nodes
 config.remoteNodeListFallback = [
     '178.32.178.27:11127',
-    '37.148.210.136:11127',
+    '167.86.77.96:11127',
     '5.39.6.152:11127',
 ];
 
