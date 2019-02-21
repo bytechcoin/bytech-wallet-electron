@@ -42,28 +42,28 @@ WalletTech relies on `bytech-service` to manage wallet container &amp; rpc commu
 
 Release installer & packaged archived includes a ready to use `bytech-service` binary, which is unmodified copy BytechCoin release archive.
 
-On first launch, WalletShell will try to detect location/path of bundled `bytech-service` binary, but if it's failed, you can manually set path to the `bytech-service` binary on the Settings screen.
+On first launch, WalletTech will try to detect location/path of bundled `bytech-service` binary, but if it's failed, you can manually set path to the `bytech-service` binary on the Settings screen.
 
 If you don't trust the bundled `bytech-service` file, you can compare the checksum (sha256sum) against one from the official release, or simply download and use the binary from official BytechCoin release, which is available here: https://github.com/bytechcoin/bytechcoin/releases. Then,  make sure to update your `bytech-service` path setting.
 
-### Download &amp; Run WalletShell
+### Download &amp; Run WalletTech
 
 #### Windows:
 1. Download the latest installer here: https://github.com/bytechcoin/bytech-wallet-electron/releases
-2. Run the installer (`walletshell-<version>-win-setup.exe`) and follow the installation wizard.
-3. Launch WalletShell via start menu or desktop shortcut.
+2. Run the installer (`wallettech-<version>-win-setup.exe`) and follow the installation wizard.
+3. Launch WalletTech via start menu or desktop shortcut.
 
 #### GNU/Linux (AppImage):
 1. Download latest AppImage bundle here: https://github.com/bytechcoin/bytech-wallet-electron/releases
-2. Make it executable, either via GUI file manager or command line, e.g. `chmod +x walletshell-<version>-linux.AppImage`
-3. Run/execute the file, double click in file manager, or run via shell/command line. 
+2. Make it executable, either via GUI file manager or command line, e.g. `chmod +x wallettech-<version>-linux.AppImage`
+3. Run/execute the file, double click in file manager, or run via tech/command line. 
 
 See: https://docs.appimage.org/user-guide/run-appimages.html
 
 #### macOS (TBD/Untested)
 1. Download latest archive here: https://github.com/bytechcoin/bytech-wallet-electron/releases
 2. Extract downloaded tar archived
-3. Run the executable binary (`WalletShell.app/Contents/MacOs/WalletShell`) ??
+3. Run the executable binary (`WalletTech.app/Contents/MacOs/WalletTech`) ??
 
 ### Build
 You need to have `Node.js` and `npm` installed, go to https://nodejs.org and find out how to get it installed on your platform.
